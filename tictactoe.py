@@ -93,6 +93,7 @@ i = 1
 while i < 5:
 	DisplayBoard(globalBoard)
 	EnterMove(globalBoard)
+	VictoryFor(globalBoard)
 	DrawMove(globalBoard)
 	VictoryFor(globalBoard)
 	i += 1
